@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="gradient-bg"></canvas>
+
+  <header>
+    <h1>Hi, I'm Snehil Shrey</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="reveal">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate web developer skilled in HTML, CSS, and JavaScript. I enjoy building visually appealing, responsive, and functional websites. With a constant drive to learn and adapt, I strive to blend creativity with technology to bring ideas to life on the web.
+      </p>
+    </section>
+
+    <section id="skills" class="reveal">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Web Development</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="reveal">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <h3>ITALY WEBPAGE</h3>
+          <p>A simple and interactive webpage describing about the rich heritage of Italy. It also highlights its two important cities, Rome and Venice.</p>
+        </div>
+        <div class="project-card">
+          <h3>WEATHER APP</h3>
+          <p>A user-friendly weather app made with the help of HTML, CSS and JS. It fetches the weather report and parameters like clouds, rain, etc. of the city or country entered by the user.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="reveal">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Snehil Shrey. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
